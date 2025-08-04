@@ -1,5 +1,5 @@
 <footer>
-    <p>Copyright &copy; 2025</p>
+    <p>Copyright &copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?></p>
 </footer>
 </body>
 </html>
