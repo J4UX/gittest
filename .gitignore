@@ -1,0 +1,103 @@
+# WordPress Core
+/wp-admin/
+/wp-includes/
+/wp-*.php
+/xmlrpc.php
+/readme.html
+/license.txt
+/index.php
+
+# WordPress Config
+wp-config.php
+wp-config-sample.php
+
+# WordPress Content - Keep themes and plugins, exclude uploads and cache
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/cache.php
+wp-content/object-cache.php
+
+# Local Development Environment
+/logs/
+/conf/
+local-xdebuginfo.php
+
+# Database Dumps
+*.sql
+*.sql.gz
+*.sql.bz2
+
+# Local Development Files
+.htaccess
+error_log
+debug.log
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.atom/
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Node.js (if using build tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Compiled CSS and JS (if using build tools)
+*.min.css
+*.min.js
+/dist/
+/build/
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+*~
+
+# PHP Composer (if used)
+/vendor/
+composer.lock
+
+# Environment Files
+.env
+.env.local
+.env.production
+
+# Backup Files
+*.bak
+*.backup
+*.old
+
+# FTP Files
+.ftpconfig
+.ftppass
+
+# Git Files
+.gitattributes
+
+# Theme Development (keeping your custom theme files)
+# Uncomment if you want to exclude specific theme files
+# wp-content/themes/*/node_modules/
+# wp-content/themes/*/dist/
+# wp-content/themes/*/.sass-cache/
